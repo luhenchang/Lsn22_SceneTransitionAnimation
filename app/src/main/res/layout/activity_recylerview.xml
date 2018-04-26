@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ls.lsn22_scenetransitionanimation.RecylerviewActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="1"
+        android:id="@+id/header_recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@mipmap/bottom"
+        android:layout_below="@+id/header_recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+    </ImageView>
+</LinearLayout>

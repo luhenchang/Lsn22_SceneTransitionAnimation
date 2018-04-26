@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.ls.lsn22_scenetransitionanimation.Main3Activity">
+    <ImageView
+        android:background="@mipmap/rv0"
+        android:transitionName="ivtraname"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <View
+        android:background="#17cde9"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+    <LinearLayout
+        android:id="@+id/lineay"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#7fafc4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+      <TextView
+          android:layout_marginTop="30dp"
+          android:textStyle="bold"
+          android:textColor="#ffffff"
+          android:textSize="26sp"
+          android:gravity="center"
+          android:text="KODAN LI"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="hello world 哈哈"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_rray"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bottom" />
+</LinearLayout>
